@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./estilo.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <header>
+        <h1>MASTERING THE THING</h1>
+        <p>this is a text</p>
+    </header>
+
+    <section class="dibujos">
+        <div class="mitad-left">
+            <div class="avatar"></div>
+        </div>
+        <div class="mitad-left">
+            <ul>
+                The magic list:
+                <li onclick="cambiarCara(this.id)" id="negra">
+                    La negra
+                </li>
+                <li onclick="cambiarCara(this.id)" id="man">
+                    El man
+                </li>
+                <li onclick="cambiarCara(this.id)" id="baby">
+                    El baby
+                </li>
+                <li onclick="cambiarCara(this.id)" id="old">
+                    El viejo
+                </li>
+                <li onclick="cambiarCara(this.id)" id="lunatica">
+                    La lunatica
+                </li>
+            </ul>
+        </div>
+
+        <canvas id="myCanvas" width="200" height="200" style="border:1px solid #aaa;">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+
+        <button>Click !</button>
+
+
+    </section>
+
+
+
+
+    <script src="scripts/dbfalsa.js"></script>
+    <script src="scripts/dibujador.js"></script>
+
+</body>
+
+</html>
